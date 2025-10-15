@@ -15,7 +15,7 @@
     height:70px;
     width: 5%;
     display: flex;
-    justify-content: flex-end;
+    left: 90%;
     
 }
 
@@ -30,13 +30,65 @@ h1{
 h2{
     font-size: 50px;
 }
+.zbrojeni{
+    width:60%;
+    height:60%;
+}
+.Gubcik{
+     width:60%;
+    height:60%;
+}
+.Anthropoid{
+     width:60%;
+    height:60%;
+}
+.Heydrichiada{
+     width:60%;
+    height:60%;
+}
+.Lidice{
+     width: 50%;
+    height: 50%;
+}
+.Ravensbruck{
+     width:60%;
+    height:60%;
+}
+.Terezin{
+     width:80%;
+    height:80%;
+}
+.Barbarosa{
+     width:60%;
+    height:60%;
+}
+.Varsava{
+     width:60%;
+    height:60%;
+}
+.Holocaust{
+     width:60%;
+    height:90%;
+}
+.Osvetim{
+     width:60%;
+    height:90%;
+}
+.Normandie{
+     width:85%;
+    height:90%;
+}
+.Hirosima{
+     width:60%;
+    height:90%;
+}
 img{
     display: flex;
     justify-content: flex-end;
-    height: 150px;
-    width: 180px;
+    height: 100%
+    width: 100%;
 }
-.card, .card2{
+.card, .card2, .card4, .card5, .card6, .card7{
     display: flex;
     justify-content: baseline;
     background-color: rgb(129, 122, 122);
@@ -51,13 +103,31 @@ img{
     display: none;
 }
 .card{
-    animation: mymove 5s;
+    animation: mymove 2.5s;
     position: relative;
 }
 .card2{
-    animation: mymove2 5s;
+    animation: mymove2 2.5s;
     position: relative;
 }
+
+.card4{
+    animation: mymove4 3.5s;
+    position: relative;
+}
+.card5{
+    animation: mymove5 3.5s;
+    position:relative
+}
+.card6{
+    animation: mymove6 4s;
+    position: relative;
+}
+.card7{
+    animation: mymove7 4s;
+    position:relative
+}
+
 .card_by2{
     display: flex;
     justify-content: center;
@@ -66,14 +136,15 @@ img{
 .card3{
     display: flex;
     background-color: rgb(129, 122, 122);
+    justify-content: center;
+    gap: 10px;
     padding: 15px;
-    margin-left: 25%;
-    right: 25%;
-    height: 150px;
-    width: 44.5%;
+    height: 250px;
+    width: 100%;
     color: white;
     position: relative;
-    animation: mymove3 5s;
+    animation: mymove3 2.5s;
+    margin: 5px;
 }
 @keyframes mymove{
     from {left: -2000px;}
@@ -86,4 +157,20 @@ img{
 @keyframes mymove3{
     from {bottom: -2000px;}
     to {bottom: 0px;}
+}
+@keyframes mymove4{
+    from {left: -2000px;}
+    to {left: 0px;}
+}
+@keyframes mymove5{
+    from {right: -2000px;}
+    to {right: 0px;}
+}
+@keyframes mymove6{
+    from {left: -2000px;}
+    to {left: 0px;}
+}
+@keyframes mymove7{
+    from {right: -2000px;}
+    to {right: 0px;}
 }
