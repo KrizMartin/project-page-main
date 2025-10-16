@@ -32,42 +32,42 @@ h2{
 }
 .zbrojeni{
     width:60%;
-    height:60%;
+    height:90%;
 }
 .Gubcik{
      width:60%;
-    height:60%;
+    height:90%;
 }
 .Anthropoid{
      width:60%;
-    height:60%;
+    height:90%;
 }
 .Heydrichiada{
      width:60%;
-    height:60%;
+    height:90%;
 }
 .Lidice{
-     width: 50%;
-    height: 50%;
+     width: 70%;
+    height: 80%;
 }
 .Ravensbruck{
      width:60%;
-    height:60%;
+    height:80%;
 }
 .Terezin{
-     width:80%;
-    height:80%;
+     width:60%;
+    height:90%;
 }
 .Barbarosa{
      width:60%;
-    height:60%;
+    height:90%;
 }
 .Varsava{
      width:60%;
-    height:60%;
+    height:85%;
 }
 .Holocaust{
-     width:60%;
+     width:50%;
     height:90%;
 }
 .Osvetim{
@@ -85,8 +85,7 @@ h2{
 img{
     display: flex;
     justify-content: flex-end;
-    height: 100%
-    width: 100%;
+    height: 100%;
 }
 .card, .card2, .card4, .card5, .card6, .card7{
     display: flex;
