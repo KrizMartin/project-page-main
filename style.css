@@ -32,9 +32,24 @@ h1{
 h2{
     font-size: 50px;
 }
+.mussolini{
+    width: 50%;
+    height: 80%;
+}
+.chamberlain{
+    height: 75%;
+}
+.hacha{
+    height: 75%;
+}
+
 .zbrojeni{
     width:60%;
     height:90%;
+}
+.churchill{
+    width: 50%;
+    height: 80%;
 }
 .Gubcik{
      width:60%;
@@ -43,6 +58,14 @@ h2{
 .Anthropoid{
      width:60%;
     height:90%;
+}
+.pearl{
+    width: 50%;
+    height: 80%;
+}
+.africa{
+    width: 50%;
+    height: 80%;
 }
 .Heydrichiada{
      width:60%;
@@ -54,7 +77,15 @@ h2{
 }
 .Ravensbruck{
      width:60%;
-    height:80%;
+    height:60%;
+}
+.schindler{
+     width:60%;
+    height:60%; 
+}
+.frankova{
+      width:60%;
+    height:70%;
 }
 .Terezin{
      width:60%;
@@ -64,26 +95,55 @@ h2{
      width:60%;
     height:90%;
 }
+.italie{
+     width:75%;
+    height:79%;
+}
+.vrba{
+     width:30%;
+    height:80%;
+}
 .Varsava{
      width:60%;
     height:85%;
 }
+.moravek{
+    width:40%;
+    height:60%;
+}
 .Holocaust{
-     width:50%;
-    height:90%;
+     width:70%;
+    height:100%;
 }
 .Osvetim{
-     width:60%;
-    height:90%;
+     width:80%;
+    height:80%;
 }
 .Normandie{
-     width:85%;
+     width:75%;
+    height:60%;
+}
+.stalin{
+    width:60%;
     height:90%;
 }
 .Hirosima{
      width:60%;
     height:90%;
 }
+.sendlerova{
+    width:50%;
+    height:80%;
+}
+.winton{
+    width:60%;
+    height:90% 
+}
+.hirohito{
+    width:60%;
+    height:90% 
+}
+
 img{
     display: grid;
     height: 100%;
@@ -138,7 +198,7 @@ img{
 }
 .card3{
     display: flex;
-    background-color: rgb(129, 122, 122);
+    background-color: rgb(80, 75, 75);
     justify-content: center;
     gap: 10px;
     padding: 15px;
@@ -148,6 +208,14 @@ img{
     position: relative;
     animation: mymove3 2.5s;
     margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(215, 210, 210);
 }
 @keyframes mymove{
     from {left: -2000px;}
@@ -176,4 +244,116 @@ img{
 @keyframes mymove7{
     from {right: -2000px;}
     to {right: 0px;}
+}
+@media only screen and (max-width: 767px) {
+    h2{
+        font-size: 35px;
+    }
+    .mussolini{
+        width: 60%;
+        height: 90%;
+    }
+    .churchill{
+        width: 60%;
+        height: 100%;
+    }
+    .Gubcik{
+        height: 100%;
+    }
+    .pearl{
+        width: 90%;
+        height: 90%;
+    }
+    .africa{
+         width: 90%;
+        height: 77%;
+    }
+    .Anthropoid{
+         width: 90%;
+        height: 90%;
+    }
+    .Heydrichiada{
+         width: 100%;
+        height: 100%;
+    }
+    .Lidice{
+         width: 90%;
+        height: 100%;
+    }
+    .Ravensbruck{
+         width: 90%;
+        height: 78%;
+    }
+    .schindler{
+         width: 80%;
+        height: 70%;
+    }
+    .frankova{
+         width: 90%;
+        height: 72%;
+    }
+    .Terezin{
+         width: 90%;
+        height: 90%;
+    }
+    .Barbarosa{
+         width: 90%;
+        height: 95%;
+    }
+    .italie{
+         width: 100%;
+        height: 90%;
+    }
+    .vrba{
+         width: 50%;
+        height: 80%;
+    }
+    .Varsava{
+         width: 90%;
+        height: 83%;
+    }
+    .moravek{
+         width: 50%;
+        height: 70%;
+    }
+    .Holocaust{
+         width: 90%;
+        height: 100%;
+    }
+    .Osvetim{
+         width: 90%;
+        height: 100%;
+    }
+    .Normandie{
+         width: 90%;
+        height: 90%;
+    }
+    .stalin{
+         width: 90%;
+        height: 90%;
+    }
+    .sendlerova{
+         width: 80%;
+        height: 80%;
+    }
+    .winton{
+         width: 90%;
+        height: 100%;
+    }
+    .hirohito{
+         width: 90%;
+        height: 90%;
+    }
+    .Hirosima{
+         width: 90%;
+        height: 90%;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    .zbrojeni{
+         width: 90%;
+        height: 90%;
+    }
 }
